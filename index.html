@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company-Inc</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Animation Library - Only works when you are online! -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <ul class="list nav__list">
+      <li class="nav__item">
+        <a href="#">Home</a>
+      </li>
+      <li class="nav__item">
+        <a href="#">Contact</a>
+      </li>
+      <li class="nav__item">
+        <a href="#">Brochures</a>
+      </li>
+      <li class="nav__item">
+        <a href="#">Dealers</a>
+      </li>
+      <li class="nav__item">
+        <a href="#">Careers</a>
+      </li>
+    </ul>
+    <!-- HERO -->
+    <div class="hero container">
+      <img
+        data-aos="fade-right"
+        class="hero__logo"
+        src="/images/logo1.png"
+        alt=""
+      />
+      <p class="hero__p" data-aos="fade-up">
+        This is a placeholder description in order to keep the original company
+        safe. We are an engineering company helping create solution around the
+        world.
+      </p>
+      <div class="hero__card t-solutions-card" data-aos="fade-left">
+        <h2 class="t-solutions__header">Customer Log In</h2>
+        <img class="t-solutions__image" src="/images/logo1.png" alt="" />
+        <p class="t-solutions__p">Looking for controller data? Log in here!</p>
+      </div>
+    </div>
+    <!-- PRODUCT NAVIGATION -->
+    <div class="product-nav">
+      <ul class="list product-nav__list">
+        <li class="product-nav__item"><a href="">Oil Systems</a></li>
+        <li class="product-nav__item"><a href="">Data Systems</a></li>
+        <li class="product-nav__item"><a href="">Sensor Systems</a></li>
+        <li class="product-nav__item">
+          <a href="">Fluid Modeling</a>
+        </li>
+        <li class="product-nav__item"><a href="">Software Design</a></li>
+        <li class="product-nav__item"><a href="">Project Management</a></li>
+      </ul>
+      <div class="product-nav__decoration-container">
+        <div class="product-nav__decoration"></div>
+      </div>
+    </div>
+    <!-- TITLE -->
+    <div class="title container">
+      <h1>Innovative Software Engineering Solutions</h1>
+      <h1>Commited to Quality and Service</h1>
+    </div>
+    <!-- CAROUSEL -->
+    <div class="carousel-container container">
+      <div class="carousel" data-carousel>
+        <div class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </div>
+        <div class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </div>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="images/stockPhoto1.jpeg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/stockPhoto2.jpeg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/stockPhoto3.jpeg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/stockPhoto6.jpeg" alt="" />
+          </li>
+          <li class="slide">
+            <img src="images/stockPhoto5.jpeg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- SERVICE BLOCKS -->
+    <section class="service-block-container container">
+      <section class="service-block" data-aos="fade-up">
+        <div class="service-block__img">
+          <img src="images/stockPhoto5.jpeg" alt="" />
+        </div>
+        <article class="service-block__description">
+          <h2>
+            We are always looking forward, learning and educating ourselves and
+            our clients about new innovations and best solutions to their
+            challenges.
+          </h2>
+          <p>
+            Working with our clients to effectively use the equipment we've
+            designed for them is a big part of our commitment to the industries
+            we serve. We build relationships with the owners, managers and
+            staff. Through this collaboration we work to ensure that your
+            dollars are invested in the best solutions available.
+          </p>
+          <div class="service-block__small-imgs"></div>
+        </article>
+      </section>
+    </section>
+    <!-- FOOTER -->
+    <div class="footer__decoration-container">
+      <div class="footer__decoration"></div>
+    </div>
+    <footer class="footer">
+      <div class="footer__address">
+        <h2 class="footer__address-heading">Company, Inc.</h2>
+        <p>55555 Fake Address Here</p>
+        <p>Stevensville MI 49127</p>
+        <p>All materials copyrighted.</p>
+        <p>2019</p>
+        <a href="#">EULA - Software End User Agreement</a>
+      </div>
+      <div class="collapsible">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading">Information</h2>
+          <svg class="icon collapsible_menu">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="footer__list">
+            <li><a href="#">FAQ's and Tipsheets</a></li>
+            <li><a href="#">Dealers and Distributors</a></li>
+            <li><a href="#">Request Info</a></li>
+            <li><a href="#">Brochures and Information</a></li>
+            <li><a href="#">Electrical Contracting Service</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Panel Shop</a></li>
+            <li><a href="#">Staff Resources</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapsible">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading">About</h2>
+          <svg class="icon collapsible_menu">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="footer__list">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Staff</a></li>
+            <li><a href="#">Products and Equipment</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">In our Community</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="collapsible">
+        <header class="collapsible__header">
+          <h2 class="collapsible__heading">News</h2>
+          <svg class="icon collapsible_menu">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
+        </header>
+        <div class="collapsible__content">
+          <ul class="footer__list">
+            <li><a href="#">Trade shows and Meetings</a></li>
+            <li><a href="#">News and Events</a></li>
+            <li><a href="#">Industry Links and Information</a></li>
+            <li><a href="#">Customer Login - Click Here</a></li>
+            <li><a href="#">Manager Login - Click Here</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
